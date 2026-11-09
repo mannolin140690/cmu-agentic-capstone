@@ -29,4 +29,4 @@ qdrant_storage/
 logs/
 
 # Temporary files
-tmp/
+tmp/.ipynb_checkpoints/
