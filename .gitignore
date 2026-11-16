@@ -30,3 +30,17 @@ logs/
 
 # Temporary files
 tmp/.ipynb_checkpoints/
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+logs/
+results/
+.streamlit/secrets.toml
+.DS_Store
+qdrant_storage/
