@@ -1,0 +1,15 @@
+metric,value
+total_cases,20
+successful_executions,20
+execution_success_rate,100.0
+routing_accuracy,100.0
+strategy_accuracy,100.0
+validator_grounded_rate,100.0
+validator_citation_rate,100.0
+validator_answer_rate,100.0
+mean_latency_seconds,7.3598
+p50_latency_seconds,7.1227
+p95_latency_seconds,9.2904
+mean_total_tokens,5160.8
+escalation_rate,0.0
+revision_rate,0.0

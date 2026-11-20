@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.ipynb_checkpoints/
 
 # Credentials
 .env
@@ -10,6 +11,7 @@ __pycache__/
 !.env.example
 *.pem
 *.key
+.streamlit/secrets.toml
 
 # Local databases
 qdrant_storage/
@@ -29,18 +31,10 @@ qdrant_storage/
 logs/
 
 # Temporary files
-tmp/.ipynb_checkpoints/
+tmp/
 
-.venv/
-__pycache__/
-*.pyc
-.pytest_cache/
-.ipynb_checkpoints/
-.env
-.env.*
-!.env.example
-logs/
-results/
-.streamlit/secrets.toml
-.DS_Store
-qdrant_storage/
+# Evaluation results
+results/*
+!results/benchmark_results.json
+!results/benchmark_summary.csv
+!results/architecture_comparison.json

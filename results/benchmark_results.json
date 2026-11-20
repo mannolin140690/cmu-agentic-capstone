@@ -1,0 +1,1120 @@
+{
+  "results": [
+    {
+      "trace_id": "73016157-9ed8-4652-99ee-33ff30ddc709",
+      "timestamp": "2026-11-20T19:34:07.273794+00:00",
+      "question": "¿Para qué sirve Spoon en Pentaho 9.3?",
+      "product": "Pentaho Data Integration",
+      "intent": "technical_question",
+      "latency_seconds": 9.2891,
+      "node_durations": {
+        "supervisor": [
+          2.0772
+        ],
+        "query_rewriter": [
+          0.8202
+        ],
+        "retrieval": [
+          0.7093
+        ],
+        "researcher": [
+          3.5835
+        ],
+        "validator": [
+          2.0746
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4294,
+      "output_tokens": 531,
+      "total_tokens": 4825,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately summarizes the function of Spoon in Pentaho Data Integration 9.3, supported by the retrieved evidence from source IDs c91ce0ec-4708-5c1f-b86f-51a3584deaa4 and 6ca97738-c4ae-54c9-8b7b-5d110a314c6a. All technical claims about Spoon's capabilities and repository features are directly supported by these documents."
+      },
+      "case_number": 1,
+      "group": "technical_1",
+      "expected_product": "Pentaho Data Integration",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": false,
+      "answer": "Spoon en Pentaho Data Integration (PDI) versión 9.3 es el cliente de escritorio que permite construir transformaciones, así como programar y ejecutar trabajos de integración de datos. Entre sus funciones principales están:\n\n- Migración de datos entre diferentes bases de datos y aplicaciones.\n- Carga de grandes volúmenes de datos en bases de datos, aprovechando entornos en la nube, clústeres y procesamiento masivamente paralelo.\n- Limpieza de datos mediante transformaciones que pueden ir de simples a complejas.\n- Integración de datos, incluyendo la capacidad de usar ETL en tiempo real como fuente para Pentaho Reporting.\n- Población de data warehouses con soporte para dimensiones que cambian lentamente y creación de claves sustitutas.\n\nAdemás, Spoon ofrece diferentes tipos de almacenamiento de archivos, incluyendo el uso de un repositorio Pentaho para almacenar transformaciones, trabajos y programaciones en un entorno centralizado, lo que facilita la colaboración en equipos con control de versiones, seguridad empresarial y bloqueo de contenido.\n\nEsta información está basada en la documentación oficial de Pentaho Data Integration 9.3 (source_id: c91ce0ec-4708-5c1f-b86f-51a3584deaa4, 6ca97738-c4ae-54c9-8b7b-5d110a314c6a).",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "54a59008-1eff-4dff-aa65-04eee1cf15d7",
+      "timestamp": "2026-11-20T19:34:15.765112+00:00",
+      "question": "¿Cómo funciona el licenciamiento de Pyramid Analytics?",
+      "product": "Pyramid Analytics",
+      "intent": "technical_question",
+      "latency_seconds": 8.4911,
+      "node_durations": {
+        "supervisor": [
+          1.288
+        ],
+        "query_rewriter": [
+          0.5575
+        ],
+        "retrieval": [
+          0.2455
+        ],
+        "researcher": [
+          4.3306
+        ],
+        "validator": [
+          2.0609
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4375,
+      "output_tokens": 615,
+      "total_tokens": 4990,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately summarizes the licensing model of Pyramid Analytics as described in the provided evidence. All claims about server editions, user types, and the OEM license are supported by the cited documents (source IDs: d0f7cf6a-993a-5f8b-891c-11736a0f1442, 0f242aa5-4d84-537b-a256-bd48ad9526ea, 45e5602b-861e-5ddc-934e-9361ec88a8ea). No unsupported claims were found."
+      },
+      "case_number": 2,
+      "group": "technical_2",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": false,
+      "answer": "El licenciamiento de Pyramid Analytics funciona principalmente por edición de servidor y usuarios nombrados (named users). Existen diferentes ediciones de servidor que varían en funcionalidad y límites de usuarios, y también varios niveles de licenciamiento para usuarios según sus capacidades y roles.\n\n**Ediciones de servidor:**\n- **Community (CE):** Límite de 3 usuarios, servidor único.\n- **Standard (SE):** Límite de 30 usuarios, servidor único.\n- **Enterprise (EE):** Sin límite de usuarios, soporta múltiples servidores y funcionalidades avanzadas como multitenancy, balanceo de carga, autenticación avanzada, auditoría, entre otras.\n\n**Tipos de usuarios licenciados:**\n- **Professional:** Acceso completo a todas las capacidades de la plataforma para creación y consumo de contenido.\n- **Analyst:** Versiones más ligeras para creación y consumo de contenido.\n- **Viewer:** Acceso para consumir e interactuar con contenido predefinido.\n- **Basic:** Acceso para consumir e interactuar con contenido embebido predefinido.\n\nAdemás, existe una licencia especial **OEM** para clientes que integran Pyramid en sus propios productos o servicios, con funcionalidades específicas como mensajes internos solo para administradores y notificaciones de versiones solo para administradores.\n\nEsta información está basada en la documentación oficial de Pyramid Analytics sobre licenciamiento, sin especificar versión concreta (fuentes: d0f7cf6a-993a-5f8b-891c-11736a0f1442, 0f242aa5-4d84-537b-a256-bd48ad9526ea, 45e5602b-861e-5ddc-934e-9361ec88a8ea).",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "0d7a8490-904a-4dc3-9f71-3e9f791f66eb",
+      "timestamp": "2026-11-20T19:34:22.325489+00:00",
+      "question": "¿Qué es una transformación en Pentaho 9.3?",
+      "product": "Pentaho Data Integration",
+      "intent": "technical_question",
+      "latency_seconds": 6.5602,
+      "node_durations": {
+        "supervisor": [
+          1.79
+        ],
+        "query_rewriter": [
+          0.6842
+        ],
+        "retrieval": [
+          0.153
+        ],
+        "researcher": [
+          2.3404
+        ],
+        "validator": [
+          1.5815
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4283,
+      "output_tokens": 434,
+      "total_tokens": 4717,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately defines a transformation in Pentaho Data Integration 9.3 as a process composed of steps that manipulate and transform data, supported by the detailed description of steps from source e19dc439-a4ff-55ad-b945-51a8b5bacc35. The summary is consistent with the evidence and appropriately cites the source."
+      },
+      "case_number": 3,
+      "group": "technical_3",
+      "expected_product": "Pentaho Data Integration",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": false,
+      "answer": "Una transformación en Pentaho Data Integration (PDI) versión 9.3 es un proceso que consiste en una serie de pasos (steps) que extienden y amplían la funcionalidad de PDI para manipular y transformar datos. Cada transformación está compuesta por uno o más pasos que realizan operaciones específicas sobre los datos, como agregar constantes, calcular sumas de verificación (checksum), codificar campos en XML, consumir o producir mensajes en tiempo real, ejecutar consultas analíticas, entre otros. Estos pasos permiten diseñar flujos de datos para extraer, transformar y cargar (ETL) información de diversas fuentes y formatos (fuente: e19dc439-a4ff-55ad-b945-51a8b5bacc35).\n\nEn resumen, una transformación es el conjunto de operaciones definidas en PDI para procesar datos de manera estructurada y automatizada dentro de un flujo de trabajo ETL.",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "0e28f685-4738-40c5-b0c1-bc42234d9750",
+      "timestamp": "2026-11-20T19:34:27.935393+00:00",
+      "question": "¿Qué tipos de usuarios existen en Pyramid Analytics?",
+      "product": "Pyramid Analytics",
+      "intent": "technical_question",
+      "latency_seconds": 5.6097,
+      "node_durations": {
+        "supervisor": [
+          1.5972
+        ],
+        "query_rewriter": [
+          0.6974
+        ],
+        "retrieval": [
+          0.0669
+        ],
+        "researcher": [
+          1.985
+        ],
+        "validator": [
+          1.2547
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4191,
+      "output_tokens": 369,
+      "total_tokens": 4560,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately reflects the user types and their descriptions as stated in the provided 'Pyramid Licensing' documentation (source_id: 0f242aa5-4d84-537b-a256-bd48ad9526ea). No unsupported claims were found."
+      },
+      "case_number": 4,
+      "group": "technical_4",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": false,
+      "answer": "En Pyramid Analytics existen los siguientes tipos de usuarios, definidos según los niveles de licencia que ofrecen diferentes capacidades dentro de la plataforma:\n\n1. **Professional**: Usuarios con el conjunto completo de capacidades de la plataforma para crear (autorizar) y consumir contenido.\n\n2. **Analyst**: Versiones más ligeras de las aplicaciones principales, también para crear y consumir contenido, pero con funcionalidades reducidas respecto al nivel Professional.\n\n3. **Viewer**: Usuarios que solo tienen acceso para consumir e interactuar con contenido predefinido.\n\n4. **Basic**: Usuarios con acceso para consumir e interactuar con contenido embebido predefinido.\n\nEstos niveles permiten ajustar el acceso y las funcionalidades según el rol y necesidades del usuario dentro de la organización (fuente: \"Pyramid Licensing\", source_id: 0f242aa5-4d84-537b-a256-bd48ad9526ea).",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "edc28737-437f-472e-8a59-e324cbf06d2d",
+      "timestamp": "2026-11-20T19:34:34.179370+00:00",
+      "question": "¿Qué información contiene Versions and Releases de Pyramid Analytics?",
+      "product": "Pyramid Analytics",
+      "intent": "technical_question",
+      "latency_seconds": 6.2438,
+      "node_durations": {
+        "supervisor": [
+          1.1948
+        ],
+        "query_rewriter": [
+          0.6934
+        ],
+        "retrieval": [
+          0.0879
+        ],
+        "researcher": [
+          2.5996
+        ],
+        "validator": [
+          1.6577
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4222,
+      "output_tokens": 425,
+      "total_tokens": 4647,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately summarizes the information contained in the 'Versions and Releases' document (source_id: 438ee10d-ceb5-54a9-80a3-975ce083effc). All claims about upgrade sequence, breaking changes, and support schedule are directly supported by the retrieved evidence."
+      },
+      "case_number": 5,
+      "group": "technical_5",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": false,
+      "answer": "La sección \"Versions and Releases\" de Pyramid Analytics contiene información sobre:\n\n- La secuencia de actualización (Upgrade Sequence): explica que todas las versiones anteriores de la plataforma pueden actualizarse a cualquier versión más reciente sin necesidad de pasar por versiones intermedias. Sin embargo, Pyramid solo prueba ciertas combinaciones de actualización específicas. Aun así, Pyramid ofrece soporte para cualquier combinación de actualización mediante correcciones si es necesario.\n\n- Cambios incompatibles (Breaking changes): se evitan en la medida de lo posible, salvo cuando son necesarios debido a cambios en librerías o aplicaciones de terceros integradas, como Python y R.\n\n- Programa de soporte (Support Schedule): una vez que una versión sale del soporte estándar, Pyramid no emite correcciones de errores para esa versión. El soporte extendido cubre solo correcciones clave y problemas críticos de seguridad. Se recomienda a los clientes actualizar a la siguiente versión para no quedar fuera de la cobertura de soporte.\n\nEsta información está basada en el documento titulado \"Versions and Releases\" de Pyramid Analytics (source_id: 438ee10d-ceb5-54a9-80a3-975ce083effc).",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "62892cc5-f2d4-42b5-84b0-0e345bd9874d",
+      "timestamp": "2026-11-20T19:34:41.177608+00:00",
+      "question": "¿Para qué sirve Spoon en Pentaho 9.3?",
+      "product": "Pentaho Data Integration",
+      "intent": "technical_question",
+      "latency_seconds": 6.998,
+      "node_durations": {
+        "supervisor": [
+          1.6981
+        ],
+        "query_rewriter": [
+          0.8013
+        ],
+        "retrieval": [
+          0.0914
+        ],
+        "researcher": [
+          2.8124
+        ],
+        "validator": [
+          1.5851
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4299,
+      "output_tokens": 557,
+      "total_tokens": 4856,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately summarizes the role and features of Spoon in Pentaho Data Integration 9.3, directly supported by the provided evidence from sources 6ca97738-c4ae-54c9-8b7b-5d110a314c6a and c91ce0ec-4708-5c1f-b86f-51a3584deaa4. No unsupported claims were found."
+      },
+      "case_number": 6,
+      "group": "memory_1",
+      "expected_product": "Pentaho Data Integration",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": false,
+      "answer": "Spoon en Pentaho Data Integration (PDI) versión 9.3 es el cliente de escritorio que permite construir transformaciones, así como programar y ejecutar trabajos (jobs). Es una aplicación que facilita tareas como migración de datos entre bases de datos y aplicaciones, carga masiva de datos aprovechando entornos en la nube y procesamiento paralelo, limpieza de datos con transformaciones simples o complejas, integración de datos incluyendo ETL en tiempo real para Pentaho Reporting, y la población de data warehouses con soporte para dimensiones lentamente cambiantes y creación de claves sustitutas.\n\nAdemás, Spoon ofrece diferentes tipos de almacenamiento de archivos, incluyendo el uso de un repositorio Pentaho que centraliza transformaciones, trabajos y horarios a través del Pentaho Server, lo que es recomendado para despliegues empresariales y colaboración en equipo, con características como historial de revisiones, seguridad empresarial y bloqueo de contenido.\n\nEn resumen, Spoon es la interfaz principal para diseñar, gestionar y ejecutar procesos ETL dentro de Pentaho Data Integration 9.3. \n\nEsta información se basa en la documentación oficial de Pentaho Data Integration 9.3 (source_id: 6ca97738-c4ae-54c9-8b7b-5d110a314c6a y c91ce0ec-4708-5c1f-b86f-51a3584deaa4).",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "558f4f0d-d145-4e7a-ac50-7d971d43888e",
+      "timestamp": "2026-11-20T19:34:48.949285+00:00",
+      "question": "¿Y qué ventajas tiene?",
+      "product": "Pentaho Data Integration",
+      "intent": "technical_question",
+      "latency_seconds": 7.7715,
+      "node_durations": {
+        "supervisor": [
+          1.4789
+        ],
+        "query_rewriter": [
+          0.7651
+        ],
+        "retrieval": [
+          0.102
+        ],
+        "researcher": [
+          3.6143
+        ],
+        "validator": [
+          1.7994
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4661,
+      "output_tokens": 648,
+      "total_tokens": 5309,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer is well supported by the retrieved evidence. Each advantage mentioned is directly supported by the cited sources: the Spoon client capabilities and common uses are detailed in source 6ca97738-c4ae-54c9-8b7b-5d110a314c6a, and the collaboration and repository features are supported by source c91ce0ec-4708-5c1f-b86f-51a3584deaa4. The citations correctly reference these sources and the claims are accurate reflections of the documented features."
+      },
+      "case_number": 7,
+      "group": "memory_1",
+      "expected_product": "Pentaho Data Integration",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": false,
+      "answer": "Las ventajas de usar Spoon, el cliente de Pentaho Data Integration (PDI) versión 9.3, incluyen:\n\n1. **Interfaz de escritorio para construir y ejecutar procesos ETL**: Spoon permite diseñar transformaciones y programar la ejecución de trabajos de manera visual y sencilla, facilitando la integración y manipulación de datos (fuente: 6ca97738-c4ae-54c9-8b7b-5d110a314c6a).\n\n2. **Soporte para múltiples usos comunes en integración de datos**: Spoon es útil para migración de datos entre bases y aplicaciones, carga masiva de datos aprovechando entornos en la nube y procesamiento paralelo, limpieza de datos desde transformaciones simples hasta complejas, integración en tiempo real para reportes, y población de data warehouses con soporte para dimensiones lentamente cambiantes y creación de claves sustitutas (fuente: 6ca97738-c4ae-54c9-8b7b-5d110a314c6a).\n\n3. **Colaboración y gestión centralizada con repositorios Pentaho**: Al usar Spoon junto con un Pentaho Repository, se obtiene almacenamiento centralizado de transformaciones, trabajos y horarios a través del Pentaho Server, ideal para despliegues empresariales. Esto permite colaboración en equipo con historial completo de revisiones, comparación de versiones, reversión a estados anteriores, seguridad empresarial y bloqueo de contenido para evitar conflictos (fuente: c91ce0ec-4708-5c1f-b86f-51a3584deaa4).\n\nEstas características hacen que Spoon sea una herramienta potente y flexible para diseñar, administrar y ejecutar procesos ETL en entornos empresariales con necesidades de colaboración y control de versiones.",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "27d82a70-8856-4c32-bca3-de0f933079dd",
+      "timestamp": "2026-11-20T19:34:56.541981+00:00",
+      "question": "¿Cómo funciona el licenciamiento de Pyramid Analytics?",
+      "product": "Pyramid Analytics",
+      "intent": "technical_question",
+      "latency_seconds": 7.5925,
+      "node_durations": {
+        "supervisor": [
+          1.4372
+        ],
+        "query_rewriter": [
+          0.7399
+        ],
+        "retrieval": [
+          0.0905
+        ],
+        "researcher": [
+          3.5401
+        ],
+        "validator": [
+          1.7759
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4394,
+      "output_tokens": 631,
+      "total_tokens": 5025,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately summarizes the licensing model of Pyramid Analytics as described in the retrieved documents. All claims about server editions, user types, and the OEM license are supported by the cited sources (d0f7cf6a-993a-5f8b-891c-11736a0f1442, 0f242aa5-4d84-537b-a256-bd48ad9526ea, 45e5602b-861e-5ddc-934e-9361ec88a8ea). No unsupported claims were found."
+      },
+      "case_number": 8,
+      "group": "memory_2",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": false,
+      "answer": "El licenciamiento de Pyramid Analytics funciona principalmente por edición de servidor y por usuarios nombrados (named users). Existen diferentes ediciones de servidor que varían en funcionalidad y límites de usuarios, y también distintos niveles de licencia para usuarios según sus capacidades dentro de la plataforma.\n\n**Ediciones de servidor:**\n- **Community (CE):** Límite de 3 usuarios, servidor único.\n- **Standard (SE):** Límite de 30 usuarios, servidor único.\n- **Enterprise (EE):** Sin límite de usuarios, soporta múltiples servidores y funcionalidades avanzadas como multitenancy, balanceo de carga, autenticación avanzada (Azure AD, SAML, OpenID), auditoría, alertas administrativas, entre otras.\n\n**Tipos de usuarios licenciados:**\n- **Professional:** Acceso completo a todas las capacidades de la plataforma para creación y consumo de contenido.\n- **Analyst:** Versiones más ligeras para creación y consumo de contenido.\n- **Viewer:** Acceso para consumir e interactuar con contenido predefinido.\n- **Basic:** Acceso para consumir e interactuar con contenido embebido predefinido.\n\nAdemás, existe una licencia especial llamada **OEM**, destinada a clientes que integran Pyramid dentro de sus propios productos o servicios, generalmente con una versión personalizada (white labeled) y con ciertas restricciones en la presentación de mensajes y notificaciones.\n\nEsta información está basada en la documentación oficial de Pyramid Analytics sobre licenciamiento, sin especificar versión concreta (fuentes: d0f7cf6a-993a-5f8b-891c-11736a0f1442, 0f242aa5-4d84-537b-a256-bd48ad9526ea, 45e5602b-861e-5ddc-934e-9361ec88a8ea).",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "0848809a-69de-4122-b725-64cf1ca57a35",
+      "timestamp": "2026-11-20T19:35:02.951670+00:00",
+      "question": "¿Y qué documentación tienes sobre esa plataforma?",
+      "product": "Pyramid Analytics",
+      "intent": "documentation_inventory",
+      "latency_seconds": 6.4095,
+      "node_durations": {
+        "supervisor": [
+          1.3988
+        ],
+        "query_rewriter": [
+          0.7191
+        ],
+        "retrieval": [
+          0.0328
+        ],
+        "researcher": [
+          3.1899
+        ],
+        "validator": [
+          1.0558
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 5081,
+      "output_tokens": 460,
+      "total_tokens": 5541,
+      "retrieval_strategy": "inventory",
+      "inventory_complete": true,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer correctly summarizes the documentation topics available in the retrieved evidence, including Application Languages, Pyramid Licensing, and Versions and Releases, with accurate URLs and source IDs. All claims are supported by the provided evidence."
+      },
+      "case_number": 9,
+      "group": "memory_2",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "documentation_inventory",
+      "expected_strategy": "inventory",
+      "expect_abstention": false,
+      "answer": "La documentación disponible sobre la plataforma Pyramid Analytics incluye los siguientes temas principales:\n\n1. **Application Languages**  \n   - Información general sobre los idiomas de la aplicación.  \n   - Versión: Newton 2025.11  \n   - URL: https://help.pyramidanalytics.com/Content/Root/general/Language.htm  \n   - source_id: c86c80d3-e195-5ecf-b946-8a0737c8f035\n\n2. **Pyramid Licensing**  \n   - Detalles sobre los niveles de licenciamiento de usuarios en Pyramid Analytics, incluyendo Professional, Analyst, Viewer y Basic.  \n   - URL: https://help.pyramidanalytics.com/Content/Root/general/licensing/PyramidLicensing.htm  \n   - source_id: 0f242aa5-4d84-537b-a256-bd48ad9526ea\n\n3. **Versions and Releases**  \n   - Información sobre el marco de versiones y lanzamientos, incluyendo soporte a largo plazo y versiones con nuevas funcionalidades.  \n   - URL: https://help.pyramidanalytics.com/Content/Root/Guides/general/Release Framework.htm  \n   - source_id: 09e7faa1-edba-5961-82b4-a0abc6d9b74c\n\nEstos documentos cubren aspectos generales, licenciamiento y gestión de versiones de la plataforma Pyramid Analytics. Si desea información más específica sobre algún tema, puedo ayudar a buscarla en estos documentos.",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "9daefe08-f052-4305-8c52-4ff673221adf",
+      "timestamp": "2026-11-20T19:35:10.907769+00:00",
+      "question": "¿Qué manuales tienes disponibles de Pentaho 9.3?",
+      "product": "Pentaho Data Integration",
+      "intent": "documentation_inventory",
+      "latency_seconds": 7.9559,
+      "node_durations": {
+        "supervisor": [
+          1.5454
+        ],
+        "query_rewriter": [
+          0.6537
+        ],
+        "retrieval": [
+          0.0211
+        ],
+        "researcher": [
+          4.6192
+        ],
+        "validator": [
+          1.1057
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 6188,
+      "output_tokens": 654,
+      "total_tokens": 6842,
+      "retrieval_strategy": "inventory",
+      "inventory_complete": true,
+      "documents_retrieved": 4,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer correctly lists manuals available for Pentaho Data Integration 9.3, each supported by the retrieved evidence with valid source IDs and URLs. The descriptions align with the content summaries in the evidence."
+      },
+      "case_number": 10,
+      "group": "inventory_1",
+      "expected_product": "Pentaho Data Integration",
+      "expected_intent": "documentation_inventory",
+      "expected_strategy": "inventory",
+      "expect_abstention": false,
+      "answer": "Para Pentaho Data Integration versión 9.3, los manuales disponibles son los siguientes:\n\n1. **Get started with the PDI client | 9.3 Data Integration | Pentaho**  \n   Introducción al cliente PDI (Spoon), aplicación de escritorio para construir transformaciones y ejecutar trabajos.  \n   URL: https://docs.pentaho.com/pdia-data-integration/9.3-data-integration/get-started-with-the-pdi-client  \n   (source_id: 6ca97738-c4ae-54c9-8b7b-5d110a314c6a)\n\n2. **PDI transformation steps | 9.3 Data Integration | Pentaho**  \n   Referencia detallada de los pasos de transformación disponibles en PDI 9.3.  \n   URL: https://docs.pentaho.com/pdia-data-integration/9.3-data-integration/pdi-transformation-steps-reference-overview  \n   (source_id: 0583a5d8-5486-59ea-ab46-f4829772cb2f)\n\n3. **Troubleshooting possible data integration issues | 9.3 Data Integration | Pentaho**  \n   Guía para resolver problemas comunes en Pentaho Data Integration.  \n   URL: https://docs.pentaho.com/pdia-data-integration/9.3-data-integration/data-integration-issues  \n   (source_id: da462725-5628-5459-947e-bbc61dc65c0b)\n\n4. **Use a Pentaho Repository in PDI | 9.3 Data Integration | Pentaho**  \n   Manual para usar repositorios Pentaho dentro del cliente PDI.  \n   URL: https://docs.pentaho.com/pdia-data-integration/9.3-data-integration/use-a-pentaho-repository-in-pdi  \n   (source_id: 7aa6196e-d5d5-5f17-bc1b-6dc1cc35303b)\n\nEstos documentos cubren desde la introducción al cliente, referencia de pasos de transformación, solución de problemas y uso de repositorios en Pentaho Data Integration 9.3.",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "36568b1c-322f-4d19-8133-4fef67e4b4c3",
+      "timestamp": "2026-11-20T19:35:17.698720+00:00",
+      "question": "¿Qué documentación tienes sobre Pyramid Analytics?",
+      "product": "Pyramid Analytics",
+      "intent": "documentation_inventory",
+      "latency_seconds": 6.7906,
+      "node_durations": {
+        "supervisor": [
+          1.2919
+        ],
+        "query_rewriter": [
+          0.5799
+        ],
+        "retrieval": [
+          0.0303
+        ],
+        "researcher": [
+          3.9106
+        ],
+        "validator": [
+          0.968
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4690,
+      "output_tokens": 494,
+      "total_tokens": 5184,
+      "retrieval_strategy": "inventory",
+      "inventory_complete": true,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer correctly lists the documentation titles, versions, descriptions, URLs, and source IDs as found in the retrieved evidence. It adequately addresses the user's request for an inventory of Pyramid Analytics documentation."
+      },
+      "case_number": 11,
+      "group": "inventory_2",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "documentation_inventory",
+      "expected_strategy": "inventory",
+      "expect_abstention": false,
+      "answer": "La documentación disponible sobre Pyramid Analytics incluye los siguientes documentos:\n\n1. **Application Languages**  \n   - Versión: Newton 2025.11  \n   - Descripción: Información general sobre los idiomas de la aplicación.  \n   - URL: https://help.pyramidanalytics.com/Content/Root/general/Language.htm  \n   - source_id: c86c80d3-e195-5ecf-b946-8a0737c8f035\n\n2. **Pyramid Licensing**  \n   - Versión: No especificada  \n   - Descripción: Detalles sobre los niveles de licenciamiento de usuarios en Pyramid Analytics, incluyendo Professional, Analyst, Viewer y Basic.  \n   - URL: https://help.pyramidanalytics.com/Content/Root/general/licensing/PyramidLicensing.htm  \n   - source_id: 0f242aa5-4d84-537b-a256-bd48ad9526ea\n\n3. **Versions and Releases**  \n   - Versión: No especificada  \n   - Descripción: Marco de versiones y lanzamientos de Pyramid Analytics, incluyendo soporte a largo plazo y versiones con nuevas funcionalidades.  \n   - URL: https://help.pyramidanalytics.com/Content/Root/Guides/general/Release Framework.htm  \n   - source_id: 09e7faa1-edba-5961-82b4-a0abc6d9b74c\n\nEstos documentos cubren aspectos generales del producto, licenciamiento y gestión de versiones. Si desea información más específica o técnica, puede indicarlo para buscar documentación más detallada.",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "c5a58e94-55a7-42c3-825c-b01c842a75c0",
+      "timestamp": "2026-11-20T19:35:25.736154+00:00",
+      "question": "¿Qué temas están documentados de Pentaho Data Integration?",
+      "product": "Pentaho Data Integration",
+      "intent": "documentation_inventory",
+      "latency_seconds": 8.0373,
+      "node_durations": {
+        "supervisor": [
+          1.2559
+        ],
+        "query_rewriter": [
+          0.6512
+        ],
+        "retrieval": [
+          0.0634
+        ],
+        "researcher": [
+          4.6673
+        ],
+        "validator": [
+          1.3898
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 6156,
+      "output_tokens": 628,
+      "total_tokens": 6784,
+      "retrieval_strategy": "inventory",
+      "inventory_complete": true,
+      "documents_retrieved": 4,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately summarizes the documented topics of Pentaho Data Integration 9.3 as supported by the retrieved evidence. Each claim is directly supported by the cited source documents, which cover the PDI client introduction and usage, transformation steps reference, troubleshooting topics, and repository usage. No unsupported claims were found."
+      },
+      "case_number": 12,
+      "group": "inventory_3",
+      "expected_product": "Pentaho Data Integration",
+      "expected_intent": "documentation_inventory",
+      "expected_strategy": "inventory",
+      "expect_abstention": false,
+      "answer": "Los temas documentados de Pentaho Data Integration (PDI) versión 9.3 incluyen:\n\n1. Introducción y uso del cliente PDI (también conocido como Spoon), que es una aplicación de escritorio para construir transformaciones, programar y ejecutar trabajos. Se documentan usos comunes como migración de datos, carga masiva, limpieza de datos y ETL en tiempo real.  \n   Fuente: \"Get started with the PDI client | 9.3 Data Integration | Pentaho\" (source_id: 6ca97738-c4ae-54c9-8b7b-5d110a314c6a)\n\n2. Referencia de pasos de transformación en PDI, con descripción de múltiples pasos como dividir campos, entrada y salida de Splunk, salida de archivos SQL, búsqueda en flujo, salida SSTable para Big Data, entre otros.  \n   Fuente: \"PDI transformation steps | 9.3 Data Integration | Pentaho\" (source_id: 0583a5d8-5486-59ea-ab46-f4829772cb2f)\n\n3. Resolución de problemas comunes en Pentaho Data Integration, incluyendo problemas con pasos de transformación, conexiones a bases de datos, ejecución de trabajos en servidores remotos, problemas con servicios de datos, uso de ODBC y mejora de rendimiento.  \n   Fuente: \"Troubleshooting possible data integration issues | 9.3 Data Integration | Pentaho\" (source_id: da462725-5628-5459-947e-bbc61dc65c0b)\n\n4. Uso de repositorios Pentaho en PDI, incluyendo personalización del cliente PDI y creación de conexiones.  \n   Fuente: \"Use a Pentaho Repository in PDI | 9.3 Data Integration | Pentaho\" (source_id: 7aa6196e-d5d5-5f17-bc1b-6dc1cc35303b)\n\nEstos documentos cubren aspectos desde la introducción, uso de herramientas, referencia técnica de pasos, solución de problemas y administración de repositorios en Pentaho Data Integration 9.3.",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "27791f40-1909-42c2-8687-060668ac3d37",
+      "timestamp": "2026-11-20T19:35:32.178686+00:00",
+      "question": "¿Qué documentos tienes indexados de Pyramid Analytics?",
+      "product": "Pyramid Analytics",
+      "intent": "documentation_inventory",
+      "latency_seconds": 6.4418,
+      "node_durations": {
+        "supervisor": [
+          1.1485
+        ],
+        "query_rewriter": [
+          0.6767
+        ],
+        "retrieval": [
+          0.0693
+        ],
+        "researcher": [
+          3.2636
+        ],
+        "validator": [
+          1.2747
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4665,
+      "output_tokens": 443,
+      "total_tokens": 5108,
+      "retrieval_strategy": "inventory",
+      "inventory_complete": true,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer correctly lists the indexed documents for Pyramid Analytics with accurate titles, versions, URLs, and descriptions as supported by the retrieved evidence. Each claim is supported by the corresponding source_id."
+      },
+      "case_number": 13,
+      "group": "inventory_4",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "documentation_inventory",
+      "expected_strategy": "inventory",
+      "expect_abstention": false,
+      "answer": "Los documentos indexados para Pyramid Analytics son los siguientes:\n\n1. **Application Languages**  \n   - Versión: Newton 2025.11  \n   - URL: https://help.pyramidanalytics.com/Content/Root/general/Language.htm  \n   - Descripción: Información general sobre los idiomas de la aplicación.\n\n2. **Pyramid Licensing**  \n   - Versión: No especificada  \n   - URL: https://help.pyramidanalytics.com/Content/Root/general/licensing/PyramidLicensing.htm  \n   - Descripción: Detalles sobre los niveles de licenciamiento de usuarios en Pyramid Analytics (Professional, Analyst, Viewer, Basic).\n\n3. **Versions and Releases**  \n   - Versión: No especificada  \n   - URL: https://help.pyramidanalytics.com/Content/Root/Guides/general/Release Framework.htm  \n   - Descripción: Información sobre el marco de versiones y lanzamientos, incluyendo soporte a largo plazo y versiones con nuevas funcionalidades.\n\nEstos son los documentos disponibles según la información indexada. (source_id: c86c80d3-e195-5ecf-b946-8a0737c8f035, 0f242aa5-4d84-537b-a256-bd48ad9526ea, 09e7faa1-edba-5961-82b4-a0abc6d9b74c)",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "de99246d-c962-4638-bb99-4e102d689492",
+      "timestamp": "2026-11-20T19:35:40.677687+00:00",
+      "question": "¿Qué es Spoon en Pentaho 9.3?",
+      "product": "Pentaho Data Integration",
+      "intent": "technical_question",
+      "latency_seconds": 8.4989,
+      "node_durations": {
+        "supervisor": [
+          1.8664
+        ],
+        "query_rewriter": [
+          0.6802
+        ],
+        "retrieval": [
+          0.564
+        ],
+        "researcher": [
+          3.2091
+        ],
+        "validator": [
+          2.1645
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4295,
+      "output_tokens": 526,
+      "total_tokens": 4821,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately summarizes the role and features of Spoon in Pentaho Data Integration 9.3, supported by the provided evidence from source IDs 6ca97738-c4ae-54c9-8b7b-5d110a314c6a and c91ce0ec-4708-5c1f-b86f-51a3584deaa4. No unsupported claims were found."
+      },
+      "case_number": 14,
+      "group": "switch_1",
+      "expected_product": "Pentaho Data Integration",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": false,
+      "answer": "Spoon en Pentaho Data Integration 9.3 es el cliente de escritorio de PDI (Pentaho Data Integration). Es una aplicación que permite construir transformaciones, así como programar y ejecutar trabajos de integración de datos. Entre sus usos comunes se incluyen la migración de datos entre diferentes bases de datos y aplicaciones, la carga de grandes volúmenes de datos aprovechando entornos en la nube y procesamiento paralelo, la limpieza de datos mediante transformaciones simples o complejas, y la integración de datos para alimentar reportes en tiempo real o poblaciones de data warehouses con soporte para dimensiones lentamente cambiantes y creación de claves sustitutas (surrogate keys) [fuente: 6ca97738-c4ae-54c9-8b7b-5d110a314c6a].\n\nAdemás, Spoon ofrece diferentes tipos de almacenamiento de archivos, incluyendo el uso de un Repositorio Pentaho que almacena transformaciones, trabajos y horarios en un entorno centralizado a través del Pentaho Server. Este repositorio es recomendado para despliegues empresariales y soporta características como historial de revisiones, seguridad empresarial y bloqueo de contenido, facilitando la colaboración en equipos [fuente: c91ce0ec-4708-5c1f-b86f-51a3584deaa4].\n\nEn resumen, Spoon es la interfaz gráfica principal para diseñar, administrar y ejecutar procesos ETL dentro de Pentaho Data Integration 9.3.",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "6ccd442d-1e57-42a6-805b-742091fcc4b5",
+      "timestamp": "2026-11-20T19:35:49.993290+00:00",
+      "question": "Ahora explícame el licenciamiento de Pyramid Analytics.",
+      "product": "Pyramid Analytics",
+      "intent": "technical_question",
+      "latency_seconds": 9.3148,
+      "node_durations": {
+        "supervisor": [
+          1.3445
+        ],
+        "query_rewriter": [
+          0.7401
+        ],
+        "retrieval": [
+          0.5299
+        ],
+        "researcher": [
+          4.4627
+        ],
+        "validator": [
+          2.2246
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4731,
+      "output_tokens": 654,
+      "total_tokens": 5385,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately summarizes the licensing model of Pyramid Analytics as described in the provided evidence. All claims about server editions, user types, additional options, and OEM licensing are supported by the cited documents (source IDs: d0f7cf6a-993a-5f8b-891c-11736a0f1442, 0f242aa5-4d84-537b-a256-bd48ad9526ea, 45e5602b-861e-5ddc-934e-9361ec88a8ea). No unsupported claims were found."
+      },
+      "case_number": 15,
+      "group": "switch_1",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": false,
+      "answer": "El licenciamiento de Pyramid Analytics se basa principalmente en dos aspectos: la edición del servidor y los usuarios nombrados (named users).\n\n1. **Ediciones del servidor**: Existen varias ediciones con diferentes funcionalidades y límites de usuarios:\n   - **Community (CE)**: Límite de 3 usuarios, servidor único.\n   - **Standard (SE)**: Límite de 30 usuarios, servidor único.\n   - **Enterprise (EE)**: Sin límite de usuarios, soporta múltiples servidores y funcionalidades avanzadas como multitenancy, balanceo de carga, autenticación avanzada (Azure AD, SAML, OpenID), auditoría, alertas administrativas, entre otras.\n   \n2. **Tipos de usuarios licenciados**:\n   - **Professional**: Acceso completo a todas las capacidades de la plataforma para creación y consumo de contenido.\n   - **Analyst**: Versiones más ligeras para creación y consumo de contenido.\n   - **Viewer**: Acceso para consumir e interactuar con contenido predefinido.\n   - **Basic**: Acceso para consumir e interactuar con contenido embebido predefinido.\n\n3. **Opciones adicionales**: Se pueden agregar extensiones y opciones adicionales a la instancia para ampliar funcionalidades.\n\n4. **Licencia OEM**: Para clientes que integran Pyramid en sus propios productos con marca blanca, con características específicas como notificaciones solo para administradores y mensajes restringidos.\n\nEsta información está basada en la documentación oficial de Pyramid Analytics sobre licenciamiento, sin especificar versión concreta (fuentes: d0f7cf6a-993a-5f8b-891c-11736a0f1442, 0f242aa5-4d84-537b-a256-bd48ad9526ea, 45e5602b-861e-5ddc-934e-9361ec88a8ea).",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "a579ff22-6dcc-4fe4-b571-5392f7c3aa0a",
+      "timestamp": "2026-11-20T19:35:56.443382+00:00",
+      "question": "¿Qué documentación tienes de esa plataforma?",
+      "product": "Pyramid Analytics",
+      "intent": "documentation_inventory",
+      "latency_seconds": 6.4498,
+      "node_durations": {
+        "supervisor": [
+          1.347
+        ],
+        "query_rewriter": [
+          0.6332
+        ],
+        "retrieval": [
+          0.0286
+        ],
+        "researcher": [
+          3.2929
+        ],
+        "validator": [
+          1.138
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 5075,
+      "output_tokens": 438,
+      "total_tokens": 5513,
+      "retrieval_strategy": "inventory",
+      "inventory_complete": true,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer accurately summarizes the main documentation topics available for Pyramid Analytics and provides correct URLs and version information as supported by the retrieved evidence. No unsupported claims were found."
+      },
+      "case_number": 16,
+      "group": "switch_1",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "documentation_inventory",
+      "expected_strategy": "inventory",
+      "expect_abstention": false,
+      "answer": "La documentación disponible para la plataforma Pyramid Analytics incluye los siguientes temas principales:\n\n1. **Application Languages**  \n   - Información general sobre los idiomas de la aplicación.  \n   - URL: https://help.pyramidanalytics.com/Content/Root/general/Language.htm  \n   - (Versión Newton 2025.11)\n\n2. **Pyramid Licensing**  \n   - Detalles sobre los niveles de licenciamiento de usuarios: Professional, Analyst, Viewer y Basic.  \n   - URL: https://help.pyramidanalytics.com/Content/Root/general/licensing/PyramidLicensing.htm\n\n3. **Versions and Releases**  \n   - Información sobre el marco de versiones y lanzamientos, incluyendo soporte a largo plazo y versiones con nuevas funcionalidades.  \n   - URL: https://help.pyramidanalytics.com/Content/Root/Guides/general/Release Framework.htm\n\nEstos documentos no especifican una versión concreta del producto, por lo que parecen ser aplicables a la plataforma en general. Si necesitas documentación sobre un tema o versión específica, puedo ayudarte a buscarla.  \n\nFuentes: c86c80d3-e195-5ecf-b946-8a0737c8f035, 0f242aa5-4d84-537b-a256-bd48ad9526ea, 09e7faa1-edba-5961-82b4-a0abc6d9b74c",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "6fa50d24-01fc-4c1d-8b50-b771f326cca2",
+      "timestamp": "2026-11-20T19:36:05.129341+00:00",
+      "question": "¿Cómo configurar Pentaho 9.3 para conectarse a una base de datos ficticia llamada ZetaDB?",
+      "product": "Pentaho Data Integration",
+      "intent": "technical_question",
+      "latency_seconds": 8.6858,
+      "node_durations": {
+        "supervisor": [
+          1.6235
+        ],
+        "query_rewriter": [
+          1.0126
+        ],
+        "retrieval": [
+          0.4521
+        ],
+        "researcher": [
+          3.9969
+        ],
+        "validator": [
+          1.588
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4523,
+      "output_tokens": 643,
+      "total_tokens": 5166,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer correctly states that there is no specific documentation for configuring a connection to a fictitious database called ZetaDB in Pentaho 9.3. It accurately summarizes the general procedure for creating database connections in PDI and cites the relevant source (b56d06d4-eb52-5c56-a537-f189618da957) that supports these claims. The cautious abstention and recommendation to consult official guides are appropriate given the evidence."
+      },
+      "case_number": 17,
+      "group": "unknown_1",
+      "expected_product": "Pentaho Data Integration",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": true,
+      "answer": "No se encontró en la documentación recuperada un procedimiento específico para configurar Pentaho Data Integration (PDI) versión 9.3 para conectarse a una base de datos llamada ZetaDB. \n\nSin embargo, en general, para conectar PDI a una base de datos externa, se debe crear una conexión de base de datos dentro del cliente PDI, donde se especifican parámetros como el tipo de base de datos, el controlador JDBC, la URL de conexión, el usuario y la contraseña. Esta configuración suele hacerse en el diálogo de \"Database Connections\" dentro del Spoon (cliente gráfico de PDI).\n\nLa documentación recuperada menciona la creación de conexiones en el cliente PDI y la gestión de repositorios, pero no detalla pasos concretos para configurar una conexión a una base de datos específica ni para una base de datos ficticia como ZetaDB (fuente: b56d06d4-eb52-5c56-a537-f189618da957).\n\nPor lo tanto, no puedo proporcionar un procedimiento exacto para configurar la conexión a ZetaDB en Pentaho 9.3 basado en la documentación disponible. Si necesita instrucciones precisas, se recomienda consultar la guía oficial de administración de Pentaho Data Integration 9.3 o buscar documentación específica sobre conexiones JDBC para bases de datos personalizadas.\n\nResumen:  \n- No hay evidencia específica para configurar ZetaDB en PDI 9.3.  \n- La configuración general de conexiones se realiza en el cliente PDI.  \n- Se requiere definir el controlador JDBC y parámetros de conexión para la base de datos.  \n\nReferencia:  \n- \"Use a Pentaho Repository in PDI | 9.3 Data Integration | Pentaho\" (source_id: b56d06d4-eb52-5c56-a537-f189618da957)",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "23f0f42b-5ed1-4a18-8ea7-6e4f0ee2d6dd",
+      "timestamp": "2026-11-20T19:36:12.376990+00:00",
+      "question": "¿Cuál será el precio de Pyramid Analytics en el año 2035?",
+      "product": "Pyramid Analytics",
+      "intent": "technical_question",
+      "latency_seconds": 7.2474,
+      "node_durations": {
+        "supervisor": [
+          1.9621
+        ],
+        "query_rewriter": [
+          0.6834
+        ],
+        "retrieval": [
+          0.2609
+        ],
+        "researcher": [
+          2.724
+        ],
+        "validator": [
+          1.6085
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4230,
+      "output_tokens": 430,
+      "total_tokens": 4660,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer correctly states that there is no evidence in the retrieved documentation about the price of Pyramid Analytics in 2035. It appropriately cites the sources that discuss licensing and versioning but do not mention future pricing. The response is cautious and honest about the lack of information, which is appropriate given the evidence."
+      },
+      "case_number": 18,
+      "group": "unknown_2",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": true,
+      "answer": "No se encontró evidencia en la documentación recuperada que indique cuál será el precio de Pyramid Analytics en el año 2035. Los documentos disponibles describen aspectos generales sobre licenciamiento, ediciones del servidor, y el marco de versiones y soporte, pero no contienen información sobre precios futuros o proyecciones económicas para ese año específico (2035) (source_id: 438ee10d-ceb5-54a9-80a3-975ce083effc, d0f7cf6a-993a-5f8b-891c-11736a0f1442, 09e7faa1-edba-5961-82b4-a0abc6d9b74c).\n\nPor lo tanto, no es posible confirmar ni estimar el precio de Pyramid Analytics para el año 2035 con la información disponible.",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "cfa4091e-1e22-4503-bba2-202ebf753dca",
+      "timestamp": "2026-11-20T19:36:18.187248+00:00",
+      "question": "¿Cuál es la contraseña de administrador de Pyramid Analytics?",
+      "product": "Pyramid Analytics",
+      "intent": "technical_question",
+      "latency_seconds": 5.81,
+      "node_durations": {
+        "supervisor": [
+          1.2708
+        ],
+        "query_rewriter": [
+          0.6006
+        ],
+        "retrieval": [
+          0.31
+        ],
+        "researcher": [
+          2.384
+        ],
+        "validator": [
+          1.2341
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4202,
+      "output_tokens": 347,
+      "total_tokens": 4549,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer correctly states that the retrieved documentation does not contain information about the default administrator password for Pyramid Analytics. It appropriately cites the source IDs and does not make unsupported claims. No corrections needed."
+      },
+      "case_number": 19,
+      "group": "unknown_3",
+      "expected_product": "Pyramid Analytics",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": true,
+      "answer": "No se encontró en la documentación recuperada ninguna información sobre cuál es la contraseña de administrador predeterminada en Pyramid Analytics ni indicaciones sobre contraseñas iniciales o por defecto para usuarios administradores. \n\nLos documentos disponibles se enfocan en temas de licenciamiento, tipos de usuarios y funcionalidades, pero no mencionan detalles sobre credenciales predeterminadas o contraseñas administrativas (source_id: d0f7cf6a-993a-5f8b-891c-11736a0f1442, 0f242aa5-4d84-537b-a256-bd48ad9526ea, 45e5602b-861e-5ddc-934e-9361ec88a8ea).\n\nPor lo tanto, no es posible confirmar cuál es la contraseña de administrador predeterminada en Pyramid Analytics con la evidencia disponible.",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    },
+    {
+      "trace_id": "3e437dee-5f15-47b9-9974-51954c4e5755",
+      "timestamp": "2026-11-20T19:36:25.185448+00:00",
+      "question": "¿Qué funcionalidades tendrá Pentaho Data Integration en 2040?",
+      "product": "Pentaho Data Integration",
+      "intent": "technical_question",
+      "latency_seconds": 6.998,
+      "node_durations": {
+        "supervisor": [
+          1.2455
+        ],
+        "query_rewriter": [
+          1.0455
+        ],
+        "retrieval": [
+          0.2893
+        ],
+        "researcher": [
+          2.5196
+        ],
+        "validator": [
+          1.8872
+        ]
+      },
+      "llm_calls": 4,
+      "input_tokens": 4351,
+      "output_tokens": 383,
+      "total_tokens": 4734,
+      "retrieval_strategy": "semantic",
+      "inventory_complete": false,
+      "documents_retrieved": 3,
+      "revision_count": 0,
+      "escalated": false,
+      "validation": {
+        "grounded": true,
+        "citations_valid": true,
+        "answers_question": true,
+        "unsupported_claims": [],
+        "feedback": "The answer correctly states that there is no information in the retrieved documentation about the functionalities planned for Pentaho Data Integration in 2040. It accurately references the current version 9.3 documentation and clarifies that no future roadmap details are present. This is consistent with the provided evidence."
+      },
+      "case_number": 20,
+      "group": "unknown_4",
+      "expected_product": "Pentaho Data Integration",
+      "expected_intent": "technical_question",
+      "expected_strategy": "semantic",
+      "expect_abstention": true,
+      "answer": "No se dispone de información en la documentación recuperada sobre las funcionalidades previstas para Pentaho Data Integration en el año 2040. Los documentos encontrados describen funcionalidades y características actuales de Pentaho Data Integration versión 9.3, como el uso de repositorios Pentaho para almacenamiento y colaboración, y los pasos de transformación disponibles, pero no contienen detalles ni previsiones sobre funcionalidades futuras o roadmap a largo plazo para el año 2040 (source_id: b56d06d4-eb52-5c56-a537-f189618da957, e19dc439-a4ff-55ad-b945-51a8b5bacc35, c91ce0ec-4708-5c1f-b86f-51a3584deaa4).\n\nPor lo tanto, no es posible confirmar ni describir funcionalidades previstas para Pentaho Data Integration en 2040 con la evidencia disponible.",
+      "routing_correct": true,
+      "strategy_correct": true,
+      "grounded": true,
+      "citations_valid": true,
+      "answers_question": true,
+      "abstention_verified": null,
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_cases": 20,
+    "successful_executions": 20,
+    "execution_success_rate": 100.0,
+    "routing_accuracy": 100.0,
+    "strategy_accuracy": 100.0,
+    "validator_grounded_rate": 100.0,
+    "validator_citation_rate": 100.0,
+    "validator_answer_rate": 100.0,
+    "mean_latency_seconds": 7.3598,
+    "p50_latency_seconds": 7.1227,
+    "p95_latency_seconds": 9.2904,
+    "mean_total_tokens": 5160.8,
+    "escalation_rate": 0.0,
+    "revision_rate": 0.0
+  }
+}
