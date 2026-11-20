@@ -313,5 +313,7 @@ PREVIOUS ANSWER:
         "validation": None,
         "final_validation": None,
         "revision_count": 0,
+        "escalated": False,
+        "handoff": None,
         "metrics": {}
     }

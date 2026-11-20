@@ -1,0 +1,242 @@
+{
+  "dataset_name": "agentic_analytics_gold_v1",
+  "description": "Provisional source-based reference questions for independent manual evaluation. Responses are not copied from the LLM outputs; expectations must be independently checked against the indexed documents before reporting answer accuracy.",
+  "source_basis": "Titles, IDs, and expected assertions extracted/condensed from the November 20, 2026 benchmark results; original raw indexed chunks were not available for independent verification.",
+  "n_cases": 10,
+  "rubric": {
+    "2": "All essential expected facts are correct and supported by the cited original documents; no material unsupported claim.",
+    "1": "Partially correct or incomplete, without a material contradictory claim.",
+    "0": "Incorrect, misleading, or substantially unsupported.",
+    "citation_check": "Separately check that cited source IDs correspond to relevant documents; do not count Validator approval as independent evidence.",
+    "not_applicable": "Mark unclear ground truth as pending and exclude from score until the original source is checked."
+  },
+  "cases": [
+    {
+      "id": "G01",
+      "question": "¿Para qué sirve Spoon en Pentaho Data Integration 9.3?",
+      "product": "Pentaho Data Integration",
+      "version": "9.3",
+      "expected_intent": "technical_question",
+      "expected_retrieval_strategy": "semantic",
+      "expected_facts": [
+        "Spoon es el cliente de escritorio de Pentaho Data Integration.",
+        "Permite crear transformaciones y ejecutar o programar trabajos de integración de datos."
+      ],
+      "reference_documents": [
+        "Get started with the PDI client"
+      ],
+      "reference_source_ids": [
+        "6ca97738-c4ae-54c9-8b7b-5d110a314c6a"
+      ],
+      "reference_status": "verified_against_indexed_source_excerpt",
+      "manual_score": null,
+      "manual_notes": ""
+    },
+    {
+      "id": "G02",
+      "question": "¿Qué es una transformación en Pentaho Data Integration 9.3?",
+      "product": "Pentaho Data Integration",
+      "version": "9.3",
+      "expected_intent": "technical_question",
+      "expected_retrieval_strategy": "semantic",
+      "expected_facts": [
+        "Las transformaciones de Pentaho Data Integration utilizan pasos (steps) para realizar operaciones sobre los datos.",
+        "Los pasos amplían las funcionalidades de las transformaciones; por ejemplo, permiten agregar constantes, calcular checksums o generar secuencias."
+      ],
+      "reference_documents": [
+        "PDI transformation steps"
+      ],
+      "reference_source_ids": [
+        "e19dc439-a4ff-55ad-b945-51a3584deaa4"
+      ],
+      "reference_status": "verified_against_indexed_source_excerpt",
+      "manual_score": null,
+      "manual_notes": ""
+    },
+    {
+      "id": "G03",
+      "question": "¿Qué ventajas ofrece usar un Pentaho Repository con Spoon?",
+      "product": "Pentaho Data Integration",
+      "version": "9.3",
+      "expected_intent": "technical_question",
+      "expected_retrieval_strategy": "semantic",
+      "expected_facts": [
+        "El repositorio centraliza transformaciones y trabajos.",
+        "Facilita colaboración y manejo de revisiones o control del contenido según la documentación."
+      ],
+      "reference_documents": [
+        "Use a Pentaho Repository in PDI"
+      ],
+      "reference_source_ids": [
+        "c91ce0ec-4708-5c1f-b86f-51a3584deaa4"
+      ],
+      "reference_status": "verified_against_indexed_source_excerpt",
+      "manual_score": null,
+      "manual_notes": ""
+    },
+    {
+      "id": "G04",
+      "question": "¿Qué temas cubre la guía de solución de problemas de Pentaho Data Integration 9.3?",
+      "product": "Pentaho Data Integration",
+      "version": "9.3",
+      "expected_intent": "technical_question",
+      "expected_retrieval_strategy": "semantic",
+      "expected_facts": [
+        "Incluye problemas relacionados con transformaciones y conexiones a bases de datos.",
+        "También aborda dificultades de ejecución o rendimiento de integración de datos."
+      ],
+      "reference_documents": [
+        "Troubleshooting possible data integration issues"
+      ],
+      "reference_source_ids": [
+        "da462725-5628-5459-947e-bbc61dc65c0b"
+      ],
+      "reference_status": "verified_against_indexed_source_excerpt",
+      "manual_score": null,
+      "manual_notes": ""
+    },
+    {
+      "id": "G05",
+      "question": "¿Cuáles son los cuatro documentos de Pentaho Data Integration 9.3 indexados en esta base de conocimiento?",
+      "product": "Pentaho Data Integration",
+      "version": "9.3",
+      "expected_intent": "documentation_inventory",
+      "expected_retrieval_strategy": "inventory",
+      "expected_facts": [
+        "Get started with the PDI client",
+        "PDI transformation steps",
+        "Troubleshooting possible data integration issues",
+        "Use a Pentaho Repository in PDI"
+      ],
+      "reference_documents": [
+        "Get started with the PDI client",
+        "PDI transformation steps",
+        "Troubleshooting possible data integration issues",
+        "Use a Pentaho Repository in PDI"
+      ],
+      "reference_source_ids": [
+        "6ca97738-c4ae-54c9-8b7b-5d110a314c6a",
+        "0583a5d8-5486-59ea-ab46-f4829772cb2f",
+        "da462725-5628-5459-947e-bbc61dc65c0b",
+        "7aa6196e-d5d5-5f17-bc1b-6dc1cc35303b"
+      ],
+      "reference_status": "verified_against_indexed_source_excerpt",
+      "manual_score": null,
+      "manual_notes": ""
+    },
+    {
+      "id": "G06",
+      "question": "¿Cuáles son las ediciones de servidor documentadas para Pyramid Analytics y sus límites de usuarios?",
+      "product": "Pyramid Analytics",
+      "version": null,
+      "expected_intent": "technical_question",
+      "expected_retrieval_strategy": "semantic",
+      "expected_facts": [
+        "Community (CE): hasta 3 usuarios y un servidor.",
+        "Standard (SE): hasta 30 usuarios y un servidor.",
+        "Enterprise (EE): sin límite de usuarios indicado en la documentación y soporte para varios servidores."
+      ],
+      "reference_documents": [
+        "Pyramid Licensing"
+      ],
+      "reference_source_ids": [
+        "d0f7cf6a-993a-5f8b-891c-11736a0f1442"
+      ],
+      "reference_status": "verified_against_indexed_source_excerpt",
+      "manual_score": null,
+      "manual_notes": ""
+    },
+    {
+      "id": "G07",
+      "question": "¿Qué diferencias hay entre las licencias Professional, Analyst, Viewer y Basic de Pyramid Analytics?",
+      "product": "Pyramid Analytics",
+      "version": null,
+      "expected_intent": "technical_question",
+      "expected_retrieval_strategy": "semantic",
+      "expected_facts": [
+        "Professional permite creación y consumo con el conjunto completo de capacidades.",
+        "Analyst permite creación y consumo con capacidades más limitadas.",
+        "Viewer consume e interactúa con contenido predefinido.",
+        "Basic consume contenido embebido predefinido."
+      ],
+      "reference_documents": [
+        "Pyramid Licensing"
+      ],
+      "reference_source_ids": [
+        "0f242aa5-4d84-537b-a256-bd48ad9526ea"
+      ],
+      "reference_status": "verified_against_indexed_source_excerpt",
+      "manual_score": null,
+      "manual_notes": ""
+    },
+    {
+      "id": "G08",
+      "question": "¿Para qué se utiliza una licencia OEM en Pyramid Analytics?",
+      "product": "Pyramid Analytics",
+      "version": null,
+      "expected_intent": "technical_question",
+      "expected_retrieval_strategy": "semantic",
+      "expected_facts": [
+        "OEM está orientada a clientes que integran Pyramid en sus propios productos o servicios.",
+        "La documentación menciona una oferta personalizada o white-label y particularidades para mensajes o notificaciones."
+      ],
+      "reference_documents": [
+        "Pyramid Licensing"
+      ],
+      "reference_source_ids": [
+        "45e5602b-861e-5ddc-934e-9361ec88a8ea"
+      ],
+      "reference_status": "verified_against_indexed_source_excerpt",
+      "manual_score": null,
+      "manual_notes": ""
+    },
+    {
+      "id": "G09",
+      "question": "¿Qué aborda la sección Versions and Releases de Pyramid Analytics respecto a actualizaciones y soporte?",
+      "product": "Pyramid Analytics",
+      "version": null,
+      "expected_intent": "technical_question",
+      "expected_retrieval_strategy": "semantic",
+      "expected_facts": [
+        "Describe secuencias de actualización y combinaciones probadas.",
+        "Discute cambios incompatibles (breaking changes).",
+        "Explica el calendario de soporte estándar y extendido."
+      ],
+      "reference_documents": [
+        "Versions and Releases"
+      ],
+      "reference_source_ids": [
+        "438ee10d-ceb5-54a9-80a3-975ce083effc"
+      ],
+      "reference_status": "verified_against_indexed_source_excerpt",
+      "manual_score": null,
+      "manual_notes": ""
+    },
+    {
+      "id": "G10",
+      "question": "¿Cuáles son los tres documentos de Pyramid Analytics indexados en esta base de conocimiento?",
+      "product": "Pyramid Analytics",
+      "version": null,
+      "expected_intent": "documentation_inventory",
+      "expected_retrieval_strategy": "inventory",
+      "expected_facts": [
+        "Application Languages",
+        "Pyramid Licensing",
+        "Versions and Releases"
+      ],
+      "reference_documents": [
+        "Application Languages",
+        "Pyramid Licensing",
+        "Versions and Releases"
+      ],
+      "reference_source_ids": [
+        "c86c80d3-e195-5ecf-b946-8a0737c8f035",
+        "0f242aa5-4d84-537b-a256-bd48ad9526ea",
+        "09e7faa1-edba-5961-82b4-a0abc6d9b74c"
+      ],
+      "reference_status": "verified_against_indexed_source_excerpt",
+      "manual_score": null,
+      "manual_notes": ""
+    }
+  ]
+}

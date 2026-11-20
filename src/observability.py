@@ -226,6 +226,10 @@ class AgentObservability(BaseCallbackHandler):
                 "revision_count", 0
             ),
 
+            "escalated": bool(
+                result.get("escalated")
+            ),
+
             "validation": validation
         }
 

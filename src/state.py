@@ -32,3 +32,7 @@ class AgentState(TypedDict):
     last_question: NotRequired[str | None]
 
     intent: NotRequired[str]
+
+    # Human oversight
+    escalated: NotRequired[bool]
+    handoff: NotRequired[dict[str, Any] | None]

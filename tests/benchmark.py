@@ -231,6 +231,7 @@ def run_benchmark(limit=None):
                     record.get("retrieval_strategy")
                     == expected_strategy
                 ),
+                "escalated": record.get("escalated"),
                 "grounded": validation.get("grounded"),
                 "citations_valid": validation.get(
                     "citations_valid"
@@ -321,6 +322,7 @@ def create_summary(results):
                 for r in successful
             ]), 2
         ) if successful else None,
+        "escalation_rate": rate("escalated"),
         "revision_rate": round(
             100 * sum(
                 (r.get("revision_count") or 0) > 0

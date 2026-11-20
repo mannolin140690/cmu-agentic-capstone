@@ -4,11 +4,10 @@ from typing import Any
 
 from qdrant_client import models
 
-from src.config import qdrant_client
+from src.config import qdrant_client, COLLECTION_NAME
 from src.tools.qdrant_search import search_documentation
 
 
-COLLECTION_NAME = "cmu_technical_docs"
 PAGE_SIZE = 100
 
 
