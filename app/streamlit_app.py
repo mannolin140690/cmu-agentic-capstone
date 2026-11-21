@@ -349,6 +349,5 @@ st.divider()
 
 st.caption(
     "CMU Agentic AI Capstone | "
-    "Multi-Agent RAG System | "
-    "LangGraph + Qdrant + OpenAI"
+    "Multi-Agent RAG System"
 )

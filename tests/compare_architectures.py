@@ -28,7 +28,7 @@ load_dotenv()
 ROOT = Path(__file__).resolve().parents[1]
 DATASET_FILE = ROOT / "tests" / "golden_questions_v1.json"
 OUTPUT_DIR = ROOT / "results"
-COLLECTION = os.getenv("COLLECTION_NAME", "cmu_technical_docs")
+COLLECTION = os.getenv("QDRANT_COLLECTION", "cmu_technical_docs")
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "paraphrase-multilingual-MiniLM-L12-v2")
 LLM_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
