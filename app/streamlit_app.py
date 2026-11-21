@@ -18,12 +18,8 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("🤖 Technical Documentation Agent")
-st.caption(
-    "CMU Agentic AI Capstone | "
-    "LangGraph + OpenAI + Qdrant + Streamlit"
-)
-
+st.title("🤖 Agentic Analytics Platform Support and Research Assistant")
+st.caption("A multi-agent RAG system for version-specific documentation support")
 
 # ---------------------------------------------------------
 # Session management
